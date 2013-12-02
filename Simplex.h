@@ -37,7 +37,7 @@ public:
 	// 2D simplex noise
 	static double noise_2d(const double x, double y);
 	// 3D simplex noise
-	static double noise_3d(const double x, const double y, const double z)
+	static double noise_3d(const double x, const double y, const double z);
 
 private:
 	static int32_t fastFloor(double x);
